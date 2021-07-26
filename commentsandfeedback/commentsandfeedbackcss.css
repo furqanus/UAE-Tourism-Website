@@ -1,0 +1,121 @@
+div.comments{
+
+  text-align: center;
+  border:5px solid black;
+  width:30%;
+  margin-left:auto;
+  margin-top:-70px;
+  margin-right:60px;
+  background-color:lightyellow;
+
+}
+
+#submit{
+  border-radius:8px;
+  font-Family:verdana;
+  font-size:20px;
+  background-color:black;
+  color:white;
+  text-align: center;
+}
+
+p{
+  font-family:verdana;
+  font-size:20px;
+  color:blue;
+  font-weight:bold;
+}
+
+#back{
+  position: absolute;
+
+top:0px;
+
+ z-index: -1;
+
+}
+#nameerror,#emailerror{
+  color:red;
+  font-size: 12px;
+}
+
+
+
+
+div.slide-up {
+  height:200px;
+  overflow:hidden;
+  background-color:white;
+  opacity:0.75;
+  margin-left:1%;
+  border-radius:8px;
+  margin-top: 50px;
+}
+div.slide-up p {
+  animation: 2s slide-up;
+  margin-top:0%;
+  font-family:times new roman;
+  font-size:50px;
+  color:red;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+    height: 300%;
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+#logo{
+  margin-left:20px;
+}
+
+div.container{
+  background-image:linear-gradient(skyblue,pink);
+  border:3px solid black;
+  width:50%;
+  margin-left: 330px;
+  margin-top: 190px;
+}
+
+
+
+/* navigation */
+
+*{
+  margin=0;
+  padding=0;
+  font-family:Century Gothic;
+}
+
+ul{
+  list-style-type: none;
+  float:right;
+
+}
+ul li{
+  display:inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding:5px 20px;
+  border:1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+
+ul li.active a{
+  background-color: #fff;
+  color:#000;
+
+}

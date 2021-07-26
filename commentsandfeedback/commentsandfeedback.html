@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../commentsandfeedback/commentsandfeedbackcss.css">
+    <script type="text/javascript" src="../commentsandfeedback/commentsandfeedbackjs.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+
+  </head>
+  <body onload="createAndDisplayDB();">
+    <header>
+      <div class="main">
+        <ul>
+          <li><a href="../Homepage/Homepage.html">Home</a></li>
+          <li><a href="../placestovisit/placestovisit.html">Places to Visit</a></li>
+          <li><a href="../Navigation/Navigation.html">Navigation</a></li>
+          <li><a href="../desertsafari/Desert Safari XML.xml">Special Offer</a></li>
+          <li><a href="../culture/culture.html">Culture</a></li>
+          <li><a href="../contact/Contactnumber.html">Important Contact</a></li>
+          <li><a href="../challenges/covid19.html">Challenges</a></li>
+          <li  class="active"><a href="#">Comments</a></li>
+        </ul>
+
+      </div>
+    </header>
+
+    <img id="back" src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="Dubai skyview" height="100%" width="100%" />
+    <img id="logo" src="https://imagevars.gulfnews.com/2020/01/09/The-new-UAE-logo_16f89d4ef3f_large.jpg" height="100px" width="120px">
+
+<br><br>
+
+
+<div class="slide-up" style="float:Left">
+  <br><br><br>
+  <pre>
+<p>Comments/Queries </p>
+</pre>
+</div>
+
+    <div class="comments">
+      <form>
+      <p>Enter name:</p>
+      <input style="padding:5px;" type="text" name="name" id="name" size="30" placeholder="Name(In Words)" required>
+      <p id="nameerror"></p>
+
+      <p>Enter email:</p>
+      <input style="padding:5px;" type="text" name="email" id="email" placeholder="eg@domain.com" required>
+      <p id="emailerror"></p>
+
+      <p>Enter Comments:</p>
+      <textarea id="comments" name="comments" rows="8" cols="50" placeholder="Enter Comments" required></textarea>
+
+      <button type="button" id="submit" onclick="addNote()">Submit Details</button>
+
+      <div class="text-right">
+        <br>
+
+        <button type="button" onclick="clearDatabase()">Clear Database</button>
+        <button type="button" onclick="sortByName()">Display Records Sorted by Name</button>
+        <button type="button" onclick="sortByComment()">Display Records Sorted by Comment</button><br><br>
+      </div>
+      </form>
+
+
+    </div>
+    <h3 style="margin-top:-170px;color:yellow;">Check the comments Below!!</h3>
+
+    <div style="clear:both">
+
+    </div>
+
+    <ol><div class="container" id="OutputSection">
+      <h3 id="comments">Comments</h3>
+
+    </div></ol>
+
+    <div style="clear:both">
+
+    </div>
+
+
+
+
+  </body>
+</html>

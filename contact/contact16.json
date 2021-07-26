@@ -1,0 +1,60 @@
+{
+   "contactemergency": [
+      {
+         "name": "Police",
+         "number": "911"
+      },
+      {
+         "name": "Ambulance",
+         "number": "998"
+      },
+      {
+         "name": "Fire Department",
+         "number": "997"
+      },
+      {
+         "name": "Coast Guard",
+         "number": "996"
+      },
+      {
+         "name": "Electricity Failure",
+         "number": "991"
+      }
+   ],
+   "crime": [
+      {
+         "name": "Abu Dhabi Police[Aman Service]",
+         "number": "8002626"
+      },
+      {
+         "name": "Dubai Police[Al Ameen Service]",
+         "number": "8004888"
+      },
+      {
+         "name": "Sharjah Police[Najeed Service]",
+         "number": "8002626"
+      },
+      {
+         "name": "Animal Abuse",
+         "number": "9712-5010054"
+      },
+      {
+         "name": "Human Rights",
+         "number": "8002121"
+      }
+   ],
+   "networkproviders": [
+      {
+         "name": "Etisalat",
+         "number": "181"
+      },
+      {
+         "name": "Du",
+         "number": "199"
+      }
+   ],
+   "vatrefund": {
+      "name": "Federal Tax Authority",
+      "number": "600 599 994"
+   }
+}

@@ -1,0 +1,83 @@
+body{
+  background-image: url("https://images.wallpaperscraft.com/image/background_spots_bright_solid_69095_2560x1600.jpg");
+
+    font-family: "Helvetica";
+    font-size: 16px;
+    margin: 32px;
+
+  }
+
+table,th,td {
+  border : 2px solid black;
+  border-collapse: collapse;
+  width: 40%;
+  background-color: lightgreen;
+  padding: 5px;
+  text-align: center;
+}
+
+
+.table{
+  display: flex;
+  justify-content: center; /* Center Horizontally */
+}
+h1{
+font-family: Hobo Std;
+text-align: center;
+color:orange;
+}
+p{
+font-weight: bold;
+color:white;
+}
+
+button{
+border-radius: 8px;
+color:darkblue;
+background-color: skyblue;
+padding:5px;
+font-size: 15px;
+font-weight: bold;
+}
+div.logo img{
+
+margin-left: -20px;
+margin-top:-150px;
+float:left;
+}
+
+/* Navigation */
+
+*{
+margin=0;
+padding=0;
+font-family:Century Gothic;
+}
+
+ul{
+list-style-type: none;
+float:right;
+
+}
+ul li{
+display:inline-block;
+}
+
+ul li a{
+text-decoration: none;
+color:white;
+padding:5px 20px;
+border:1px solid transparent;
+transition: 0.6s ease;
+}
+
+ul li a:hover{
+background-color: #fff;
+color:#000;
+}
+
+ul li.active a{
+background-color: #fff;
+color:#000;
+
+}

@@ -1,0 +1,176 @@
+.tooltip1 {
+margin-left:600px;
+margin-top:350px;
+  position: relative;
+  display: inline-block;
+
+}
+
+.tooltip1 .tooltiptext,.tooltip2 .tooltiptext,.tooltip3 .tooltiptext,.tooltip4 .tooltiptext,.tooltip5 .tooltiptext {
+  visibility: hidden;
+  width: 190px;
+  background-color: skyblue;
+  color: darkgreen;
+  font-weight:bold;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip1:hover .tooltiptext,.tooltip2:hover .tooltiptext,.tooltip3:hover .tooltiptext,.tooltip4:hover .tooltiptext,.tooltip5:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip2 {
+left:700px;
+top:-230px;
+  position: relative;
+  display: inline-block;
+
+}
+
+
+.tooltip3 {
+left:760px;
+top:-300px;
+  position: relative;
+  display: inline-block;
+
+}
+
+
+
+.tooltip4 {
+left:810px;
+top:-340px;
+  position: relative;
+  display: inline-block;
+
+}
+
+
+.tooltip5 {
+left:790px;
+top:-450px;
+  position: relative;
+  display: inline-block;
+
+}
+
+.dot1,.dot2,.dot3,.dot4,.dot5 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+img{
+  position: absolute;
+
+top:0px;
+
+ z-index: -1;
+ margin-left:250px;
+ margin-top:180px;
+}
+
+#logo{
+  z-index: 1;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+div.list{
+  font-family:Hobo Std;
+  font-size:20px;
+  border:5px solid black;
+  width:30%;
+  margin-left: 923px;
+  margin-top: -480px;
+  background-color: lightyellow;
+}
+
+h1{
+  font-family:algerian;
+  text-align:center;
+  text-decoration: underline;
+  text-shadow: 4px 3px 6px black;
+  color:white;
+}
+h3{
+
+  font-size:26px;
+  margin-left:970px;
+  color:orange;
+}
+h4{
+  text-align: center;
+}
+
+body{
+  background-image: url("https://eskipaper.com/images/solid-color-background-1.jpg");
+}
+
+a:visited{
+  color:red;
+}
+
+.maps{
+  margin-top:210px;
+  color:white;
+  font-family: Century Gothic;
+  text-align: center;
+}
+
+#mapssubmit{
+  padding:6px;
+  border-radius: 6px;
+  color:green;
+  background-color: black;
+  font-weight: bold;
+}
+
+#googlemapslogo{
+  margin-top: 800px;
+  margin-left: -80px;
+}
+/* navigation */
+
+.main *{
+  margin=0;
+  padding=0;
+  font-family:Century Gothic;
+}
+
+.main ul{
+  list-style-type: none;
+  float:right;
+
+}
+.main ul li{
+  display:inline-block;
+}
+
+.main ul li a{
+  text-decoration: none;
+  color:white;
+  padding:5px 20px;
+  border:1px solid transparent;
+  transition: 0.6s ease;
+}
+
+.main ul li a:hover{
+  background-color: #fff;
+  color:#000;
+}
+
+.main ul li.active a{
+  background-color: #fff;
+  color:#000;
+
+}

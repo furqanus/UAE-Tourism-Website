@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
+<?xml-stylesheet type="text/xsl" href="DesertSafari.xsl"?>
+<!DOCTYPE desertSafari[
+<!ELEMENT desertSafari (transport,shows+,activities+,dinner)>
+<!ELEMENT transport (self,basic,advanced)>
+<!ELEMENT self (cost,description)>
+<!ELEMENT basic (cost,description)>
+<!ELEMENT advanced (cost,description)>
+
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT shows (name)>
+<!ELEMENT activities (name,agegrp)>
+<!ELEMENT dinner (cuisine+)>
+<!ELEMENT cuisine (name)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT agegrp (#PCDATA)>
+
+]>
+
+
+<desertSafari>
+  <transport>
+    <self>
+    <cost>120 Per Person</cost>
+    <description>Drive your own car to reach Desert Safari.</description>
+  </self>
+
+<basic>
+    <cost>150 Per Person</cost>
+    <description>Bus service from your hotel to the location. </description>
+</basic>
+<advanced>
+      <cost>180 Per Person</cost>
+      <description>Private SUV with a driver</description>
+</advanced>
+  </transport>
+  <shows>
+    <name>Fire show</name>
+  </shows>
+  <shows>
+    <name>Magic show</name>
+  </shows>
+  <shows>
+    <name>Falcon show</name>
+  </shows>
+  <shows>
+    <name>Tanoura Dance</name>
+  </shows>
+  <activities>
+    <name>Quad biking</name>
+    <agegrp>16 and above</agegrp>
+  </activities>
+  <activities>
+    <name>Camel Riding</name>
+    <agegrp>10 and above</agegrp>
+  </activities>
+  <activities>
+    <name>Henna designing</name>
+    <agegrp> Any</agegrp>
+  </activities>
+  <activities>
+    <name>Sand boarding</name>
+    <agegrp>18 and above</agegrp>
+  </activities>
+  <dinner>
+    <cuisine>
+      <name>Oriental cuisine</name>
+    </cuisine>
+    <cuisine>
+      <name>Chinese cuisine</name>
+    </cuisine>
+    <cuisine>
+      <name>Labanese cuisine</name>
+    </cuisine>
+    <cuisine>
+      <name>Indian cuisine</name>
+    </cuisine>
+
+  </dinner>
+
+</desertSafari>

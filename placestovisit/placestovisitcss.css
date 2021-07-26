@@ -1,0 +1,82 @@
+hr{
+  height:2px;
+  background-color:blue;
+}
+
+img:hover{
+  transform: scale(1.07);
+}
+table td{
+  width:25%; text-align:center;color:yellow;
+}
+h1{
+  color:white;
+  text-align:center;
+  font-family:Hobo Std;
+  font-size:35px;
+
+}
+img{
+  float:Left;
+}
+#back,#back2{
+  position: absolute;
+
+top:0px;
+
+ z-index: -1;
+
+
+}
+
+
+p{
+  color:lightgreen;font-size:20px;text-align:center;
+}
+
+table{
+  font-family:verdana;font-weight:bold;
+}
+
+#logo{
+ margin-left: 8px;
+
+}
+#logo:hover{
+ transform: none;
+}
+
+/* navigation */
+
+*{
+
+ font-family:Century Gothic;
+}
+
+ul{
+ list-style-type: none;
+ float:right;
+
+}
+ul li{
+ display:inline-block;
+}
+
+ul li a{
+ text-decoration: none;
+ color:white;
+ padding:5px 20px;
+ border:1px solid transparent;
+ transition: 0.6s ease;
+}
+
+ul li a:hover{
+ background-color: #fff;
+ color:#000;
+}
+
+ul li.active a{
+ background-color: #fff;
+ color:#000;
+
+}
